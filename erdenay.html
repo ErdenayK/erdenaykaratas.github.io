@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erdenay Karataş</title>
+    <link rel="icon" href="dream_Kopyas.png" type="image/icon type" sizes="500x500">
+    <link rel="stylesheet" href="erdenay.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,700;1,700&family=Montserrat:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="large.css" media="(max-width:1100px)">
+    <link rel="stylesheet" href="medium.css" media="(max-width:900px)">
+    <link rel="stylesheet" href="small.css" media="(max-width:600px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg">
+    <div class="center">
+        ☀️<input type="checkbox" class="change"><span class="ay">🌙</span>
+    </div>
+    <header>
+        <nav>
+            <h1>Erdenay Karataş</h1>
+            <div class="rightside">
+                <a href="https://twitter.com/erdenay_karatas?s=20" target="blank"><i
+                        class="fab fa-2x fa-twitter"></i></a>
+                <a href="https://instagram.com/erdenaykaratas?igshid=1hh5onevfvlh2" target="blank"><i
+                        class="fab fa-2x fa-instagram"></i></a>
+                <a href="https://github.com/erdenaykaratas" target="blank"><i class="fab fa-2x fa-github"></i></a>
+                <a href="mailto: erdenay.karatas@icloud.com"><i class="fas fa-2x fa-envelope"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="yazim">
+        <div class="no1">WHO</div>
+        <div class="no2">AM</div>
+        <div class="no3">I ?</div>
+    </div>
+    <div class="motherofbox">
+        <div class="box">
+            <a href="#go">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </div>
+    <div id="go" class="aboutme">
+        <h1 class="heading">About me</h1>
+        <p>Born in January of 2001.</p>
+        <p>Living in Izmir/Turkey.</p>
+        <p>Web developer.</p>
+        <p>Freetime activities; playing basketball,coding and researching.</p>
+        <p>Personal YouTube channel: <a id="ytc" href="https://www.youtube.com/channel/UCmyaEL0Kn04rUDmJra-33Yg" target="blank">Click here</a></p>
+    </div>
+
+    <div class="skills">
+        <h1 class="heading">Technical skills</h1>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>MsSQL</p>
+        <p>Bootstrap</p>
+    </div>
+
+    <div class="projects">
+        <h1 class="heading">Portfolio</h1>
+        <p>This area is empty for now.</p>
+    </div>
+
+    <footer>
+        
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script>
+        $(".change").on("click", function () {
+            if ($("body").hasClass("dark")) {
+                $("body").removeClass("dark");
+                $("body").addClass("bg");
+                $(".aboutme > .dark-heading").removeClass("dark-heading").addClass("heading")
+                $(".skills > .dark-heading").removeClass("dark-heading").addClass("heading")
+                $(".projects > .dark-heading").removeClass("dark-heading").addClass("heading")
+                $("nav").removeClass("rightside1").addClass("rightside")
+            }
+            else {
+                $("body").addClass("dark");
+                $("body").removeClass("bg");
+                $(".aboutme > .heading").removeClass("heading").addClass("dark-heading")
+                $(".skills > .heading").removeClass("heading").addClass("dark-heading")
+                $(".projects > .heading").removeClass("heading").addClass("dark-heading")
+                $("nav").removeClass("rightside").addClass("rightside1")
+            }
+        });
+    </script>
+
+</body>
+
+</html>
