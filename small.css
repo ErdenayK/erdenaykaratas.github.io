@@ -216,9 +216,9 @@ input[type="checkbox"]:before {
     content: "";
     position: absolute;
     width: 15px;
-    height: 14px;
+    height: 15px;
     border-radius: 15px;
-    top: 0;
+    top: 1px;
     left: 0;
     background: white;
     transition: 0.5s;
