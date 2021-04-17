@@ -503,6 +503,7 @@ footer p {
         margin-left: 10%;
         margin-right: 10%;
         cursor: default;
+        font-size: 0.25em;
     }
 
     .fa-2x {
