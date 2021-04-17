@@ -72,7 +72,7 @@ section {
     left: 5%;
     font-size: 5.5em;
     transform: translate(-20%, -70%);
-    color: #071d27;
+    color: #efefef;
     z-index: 0;
     font-family: 'Spartan', sans-serif;
 }
@@ -334,7 +334,7 @@ footer p {
         left: 5%;
         font-size: 2em;
         transform: translate(-20%, -70%);
-        color: #adadad;
+        color: #efefef;
         z-index: 0;
         font-family: 'Spartan', sans-serif;
     }
@@ -345,7 +345,7 @@ footer p {
         left: 10%;
         font-size: 0.55em;
         transform: translate(-20%, -70%);
-        color: #adadad;
+        color: #efefef;
         z-index: 0;
         font-family: 'Spartan', sans-serif;
     }
@@ -374,8 +374,8 @@ footer p {
     }
     
     .container img {
-        position: absolute;
-        width: 100%;
+        position: relative;
+        width: 8%;
         height: 100%;
         top: 0;
         left: 0;
