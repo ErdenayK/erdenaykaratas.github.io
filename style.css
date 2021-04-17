@@ -55,10 +55,9 @@ section {
 }
 
 .hero {
-    height: 60%;
+    height: 80%;
     width: 80%;
     position: relative;
-    background-image: url(finex8.png);
 }
 
 .hero img {
@@ -69,11 +68,11 @@ section {
 
 .headline {
     position: absolute;
-    top: 29%;
+    top: 30%;
     left: 5%;
     font-size: 5.5em;
     transform: translate(-20%, -70%);
-    color: #adadad;
+    color: #071d27;
     z-index: 0;
     font-family: 'Spartan', sans-serif;
 }
