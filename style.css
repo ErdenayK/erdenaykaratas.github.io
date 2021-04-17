@@ -58,6 +58,7 @@ section {
     height: 60%;
     width: 80%;
     position: relative;
+    background-image: url(finex8.png);
 }
 
 .hero img {
@@ -305,7 +306,7 @@ footer p {
     
     section {
         display: flex;
-        height: 30vh;
+        height: 75vh;
         justify-content: center;
         align-items: center;
     }
@@ -314,6 +315,7 @@ footer p {
         height: 60%;
         width: 80%;
         position: relative;
+        background-image: url(finexxx.png);
     }
     
     .hero img {
@@ -324,9 +326,9 @@ footer p {
     
     .headline {
         position: absolute;
-        top: 25%;
+        top: 15%;
         left: 5%;
-        font-size: 1.5em;
+        font-size: 2em;
         transform: translate(-20%, -70%);
         color: #adadad;
         z-index: 0;
@@ -335,9 +337,9 @@ footer p {
     
     .headline2 {
         position: absolute;
-        top: 50%;
+        top: 25%;
         left: 10%;
-        font-size: 0.5em;
+        font-size: 0.55em;
         transform: translate(-20%, -70%);
         color: #adadad;
         z-index: 0;
@@ -490,7 +492,7 @@ footer p {
     
     footer {
         width: 100%;
-        height: 5vh;
+        height: 7.5vh;
         background: black;
         color: #adadad;
         display: flex;
@@ -503,7 +505,7 @@ footer p {
         margin-left: 10%;
         margin-right: 10%;
         cursor: default;
-        font-size: 0.25em;
+        font-size: 0.15em;
     }
 
     .fa-2x {
