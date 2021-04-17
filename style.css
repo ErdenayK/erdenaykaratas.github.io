@@ -295,7 +295,7 @@ footer p {
     
     .hamburger {
         display: flex;
-        width: 17.5%;
+        width: unset;
         justify-content: space-between;
     }
     
@@ -410,7 +410,7 @@ footer p {
         margin: 0;
         padding: 0;
         display: inline-block;
-        font-size: 3em;
+        font-size: 2em;
         transition: 0.5s;
         transform-origin: left;
         transform: scaleX(0);
@@ -434,7 +434,7 @@ footer p {
         margin: 5px 0 0;
         padding: 0;
         display: block;
-        font-size: 2em;
+        font-size: 1.25em;
         transition: 0.5s;
         transform-origin: right;
         transform: scaleX(0);
@@ -454,7 +454,7 @@ footer p {
     }
     
     .content p {
-        font-size: 1.2em;
+        font-size: 0.75em;
         transition: 1s;
         opacity: 0;
         font-family: 'Spartan', sans-serif;
@@ -503,6 +503,11 @@ footer p {
         margin-left: 10%;
         margin-right: 10%;
         cursor: default;
+    }
+
+    .fa-2x {
+        font-size: 1em;
+        margin-left: 10px;
     }
     
 }
