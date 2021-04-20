@@ -6,6 +6,7 @@ const headline = document.querySelector('.headline');
 const headline2 = document.querySelector('.headline2');
 const container = document.querySelector('.container');
 const object = document.querySelector('.object');
+const webguy = document.querySelector('.webguy');
 
 const tl = new TimelineMax();
 
@@ -17,5 +18,6 @@ tl.fromTo(hero, 1, {height: "0%"}, {height: "80%", ease: Power2.easeInOut})
 .fromTo(headline, 0.5, {opacity: 0, x: 30}, {opacity: 1, x:0}, "-=0.5")
 .fromTo(headline2, 0.5, {opacity: 0, x: 30}, {opacity: 1, x:0}, "-=0.5")
 .fromTo(container, 1.2, {x: "-100%"}, {x: "0%", ease: Power2.easeInOut}, "-=1.2")
-.fromTo(object, 0.5, {opacity: 0, x: 30}, {opacity: 1, x:0}, "-=0.5");
+.fromTo(object, 0.5, {opacity: 0, x: 30}, {opacity: 1, x:0}, "-=0.5")
+.fromTo(webguy, 0.5, {opacity: 0, x: 30}, {opacity: 1, x:0}, "-=0.5");
 
